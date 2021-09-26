@@ -1,0 +1,30 @@
+.original-attributes{
+    margin-top: 1em;
+    .data-base{
+        width: 100%;
+        height: 100%;   
+        .drag-arff{
+            width: 100%;
+            height: 60%;   
+        }
+        button{
+            margin: 1em 1em 0 0; 
+        }
+       }
+        
+    
+        .database-info{
+            display: flex;
+            align-items: flex-start;
+            width: 100%;
+            height: 100%;
+    
+            ul{
+                margin-top: 0;
+                list-style: none;
+                li{
+                    margin-bottom: 1.5rem;
+                }
+            }
+        }
+}

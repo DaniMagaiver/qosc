@@ -1,0 +1,7 @@
+<div class="drag-and-drop">
+    <div  *ngIf="(file$ | async).size">Nome do arquivo: {{ (file$ | async).name }}</div>
+    <input (change)="changeFile($event.target.files)" type="file" accept=".arff" name="" id="input-file">
+    <label *ngIf="!(file$ | async).size" for="input-file">
+        Clique ou arraste uma base de dados .arff
+    </label>
+</div>
